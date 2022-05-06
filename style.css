@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+.sidebar {
+    background-color: #eee;
+    max-width: 200px;
+}
+
+.container {
+    background: #999;
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    background-color: #eee;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
