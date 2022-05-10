@@ -6,21 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="./style.css">
+    <link type="image/x-icon" href="/Elegantthemes-Beautiful-Flat-Paint-brush-2.ico" rel="shortcut icon">
 </head>
 <body>
-
-    <div class="sidebar">
-        <label for="" id="label"> 16 x 16 </label>
-        <input type="range" min="1" max="64" name="" value="16" id="range">
-        <button id="red">Red color</button>
-        <button id="black">Black color</button>
-        <button id="random">Random colors</button>
-        <button id="eraser">Eraser</button>
-        <button id="clear">Clear board</button>
-    </div>
+    <h1 class="title">Etch-a-Sketch</h1>
 
     <div class="container">
-        
+        <div class="sidebar">
+            <h3 class="size">Choose the size</h3>
+            <label for="" id="label"> 16 x 16 </label>
+            <input type="range" min="1" max="64" name="" value="16" id="range">
+            <h3 class="color">Choose the color</h3>
+            <button id="red">red color</button>
+            <button id="black">black color</button>
+            <button id="random">random colors</button>
+            <button id="eraser">eraser</button>
+            <button id="clear">clear board</button>
+        </div>
+    
+        <div class="board">
+            
+        </div>
     </div>
 
     <script src="./app.js"></script>
