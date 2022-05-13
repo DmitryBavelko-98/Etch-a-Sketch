@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(227, 227, 227);
@@ -32,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: center;
     gap: 10%;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 @media (max-width: 991.98px) {
@@ -79,11 +83,11 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     background: #fff;
-    border: 10px solid rgba(0, 0, 0, 0.5);
+    /* border: 10px solid rgba(0, 0, 0, 0.5); */
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
     width: 500px;
-    height: 500px;
+    height: 500px;  
 }
 @media (max-width: 528px) {
     .board {
